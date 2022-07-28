@@ -11,9 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - run: |
+          cd node-mongo-registration-login-api
           npm install
           npm run build
-           ls
-           pwd
+        
            
            

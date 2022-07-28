@@ -13,7 +13,7 @@ jobs:
     - run: |
           cd node-mongo-registration-login-api
           npm install
-          npm run build
+          pm2 start server.js
         
            
            

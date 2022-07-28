@@ -12,8 +12,8 @@ jobs:
     - uses: actions/checkout@main
     - run: |
           cd node-mongo-registration-login-api
-          npm install
-          pm2 start server.js
+          sudo npm install
+          sudo pm2 start server.js
         
            
            
